@@ -41,10 +41,59 @@ Task 3 : cat commands
 5. echo 'The End' >> summary.md
 
 
-Task 4 : The locate command
+Task 4 : The locate command cont..
 
 ------------------------------------
 
 1. locate umuzi.md
 
-2.
+2. locate umuzi.md >> search_result.md
+
+
+Task 5 The locate command cont..
+
+------------------------------------
+
+1. recruit@admin1-ThinkCentre-M72e:~/Documents$ touch pad.md
+
+2. recruit@admin1-ThinkCentre-M72e:~/Desktop$ mkdir work
+
+3. recruit@admin1-ThinkCentre-M72e:~$ cp ~/Documents/pad.md pad_copy.md
+
+4. recruit@admin1-ThinkCentre-M72e:~$ locate updatedb
+   /etc/updatedb.conf
+   /etc/alternatives/updatedb
+   /etc/alternatives/updatedb.8.gz
+   /usr/bin/updatedb
+   /usr/bin/updatedb.mlocate
+   /usr/share/man/man5/updatedb.conf.5.gz
+   /usr/share/man/man8/updatedb.8.gz
+   /usr/share/man/man8/updatedb.mlocate.8.gz
+
+5. recruit@admin1-ThinkCentre-M72e:~/Desktop/work$ cd -
+   /home/recruit
+   recruit@admin1-ThinkCentre-M72e:~$ 
+
+6. locate pad_copy.md
+
+
+Task 6 Find commands
+
+---------------------------------------
+
+1. find . -type f -iname '*.pdf'
+
+2. find . -type f -iname '*.pdf' ~Documents
+
+3. find -daystart -ctime 0 -print
+
+
+Task 7 Text editor
+
+---------------------------------------
+
+1. nano my_bio.md
+
+2. Ctrl X
+
+3. mkdir  my_files mv my_bio.md ~/my_files
