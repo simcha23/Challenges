@@ -1,0 +1,50 @@
+Task 1 : Basic tasks
+
+----------------------------------
+
+1. I see the directories, It is the command that is used to list all information about files and directories within the file system.
+
+2. I see the current path, It is the command that is used to print the current directory.
+
+3. recruit@admin1-ThinkCentre-M72e:~/Documents/workspace$
+
+4. I see the directories, It is the command that is used to list all information about files and directories within the file system.
+
+5. recruit@admin1-ThinkCentre-M72e:~/Documents/workspace$ touch README.md
+
+6. recruit@admin1-ThinkCentre-M72e:~/Documents/workspace$ cp README.md CHANGELOG.md
+
+
+Task 2 : Absolute and Relative Paths
+
+----------------------------------
+
+* touch exercise.md
+* mv exercise.md /tmp
+* cd /
+* cd ../tmp
+* rm exercise.md
+
+
+Task 3 : cat commands
+
+-----------------------------------
+
+1. touch umuzi.md recruits.md cohorts.md
+
+2. tee umuzi.md recruits.md cohorts.md 
+
+3. cat umuzi.md cohorts.md recruits.md
+
+4. cat umuzi.md cohorts.md recruits.md > summary.md
+
+5. echo 'The End' >> summary.md
+
+
+Task 4 : The locate command
+
+------------------------------------
+
+1. locate umuzi.md
+
+2.
